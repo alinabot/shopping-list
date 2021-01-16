@@ -1,2 +1,2 @@
 # shopping-list
-Shopping list written in go, that writes a list, calculates prices and tax.
+Shopping list written in go, that writes a list of products, calculates prices and tax.
