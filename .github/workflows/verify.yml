@@ -1,0 +1,17 @@
+name: CodeNotary
+
+on: [push]
+
+jobs:
+  check:
+
+    runs-on: ubuntu-latest
+    
+    steps:
+     - name: Checkout
+       uses: actions/checkout@master
+     
+     - name: Verify
+       uses: vchain-us/verify-action@master
+        with:
+         signerID: <0xf88fc2972429f0d86eaa5aa82b73418703259e0f>
